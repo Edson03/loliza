@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { Context } from '../../hooks/HandleCart'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Image from "next/image"
 import { Box, Flex, Text, Stack, IconButton, Circle } from "@chakra-ui/react"
 import { FaShoppingCart } from 'react-icons/fa'
@@ -26,7 +26,7 @@ const Navbar = () => {
         >
             <Stack>
                 <Stack direction="row" spacing="4" align="center" justify="space-between">
-                    <Link href={"/"}>
+                    <Link href={"/"} passHref>
                       <Stack direction="row" spacing="2" align="center" justify="space-between" cursor="pointer">
                           <Box w="57px" h="50px" position="relative">
                               <Image
@@ -44,7 +44,7 @@ const Navbar = () => {
                       </Stack>
                     </Link>
                     <Flex position="relative">
-                      <Link href="/cart">
+                      <Link href="/cart" passHref>
                         <IconButton aria-label="LinkedIn" icon={<FaShoppingCart fontSize="22px" color="teal"/>} />
                       </Link>
                       {qtdCart > 0 ? (
