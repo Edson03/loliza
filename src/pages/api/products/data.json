@@ -11,16 +11,16 @@
         "id": 2,
         "imageUrl": "/images/laco_gravatinha.jpg",
         "imageAlt": "Laço gravatinha",
-        "type": "Laço Nati",
-        "title": "Laço Nati no bico de pato, todo encapado e com borrachinha antideslizante. Tamanho p baby",
-        "price": 7.99
+        "type": "Laço Gravatinha",
+        "title": "Laço gravatinha no bico de pato, todo encapado e com borrachinha antedeslizante. Tamanho pp baby",
+        "price": 5.99
     },
     {
         "id": 3,
         "imageUrl": "/images/laco_nati.jpg",
         "imageAlt": "Laço Nati",
-        "type": "Laço gravatinha",
-        "title": "Laço gravatinha no bico de pato, todo encapado e com borrachinha antedeslizante. Tamanho pp baby",
-        "price": 5.99
+        "type": "Laço Nati",
+        "title": "Laço Nati no bico de pato, todo encapado e com borrachinha antideslizante. Tamanho p baby",
+        "price": 7.99
     }
   ]
