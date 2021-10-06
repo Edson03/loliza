@@ -153,7 +153,7 @@ const ListProduct = () => {
                     Envie sua lista via 
                 </Flex>
                 <Flex textDecoration="underline">
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=+5548988278310" rel="noopener noreferrer"> Whatsapp</a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=+5548999236126" rel="noopener noreferrer"> Whatsapp</a>
                 </Flex>
             </Flex>
         </>        
